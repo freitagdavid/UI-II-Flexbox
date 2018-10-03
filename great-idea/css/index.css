@@ -200,3 +200,46 @@ hr {
  .services ul li{
      margin: 15px 0px;
 }
+
+.about .person {
+    font-size: 11px;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+    background-color: lightgray;
+    border-radius: 15px;
+}
+
+.about .name {
+    text-align: center;
+}
+
+.about .portrait{
+    width: 150px;
+    height: auto;
+    border: 2px black solid;
+    border-radius: 50%;
+}
+
+.about .bio {
+    margin: 5px;
+}
+
+.about .team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about h2{
+    font-size: 25px;
+    margin: 25px 0px;
+}
+
+.about article p {
+    margin-bottom: 25px;
+}
