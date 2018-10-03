@@ -43,6 +43,12 @@
 }
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 /*global*/
+hr {
+    border: none;
+    height: 1px;
+    background-color: #333; /* Modern Browsers */
+}
+
  .testing * {
      border: 1px solid palevioletred;
 }
@@ -220,9 +226,11 @@
      font-weight: 600;
      font-size: 12px;
 }
+
  .services hr {
      width: 100%;
      margin: 30px 0px 30px 0px;
+     height: 2px;
 }
  .services .facts{
      display: flex;
